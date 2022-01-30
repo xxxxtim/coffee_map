@@ -44,7 +44,7 @@ var markers = new L.MarkerClusterGroup().addTo(map);
 
   // link coffee api
   var xhr = new XMLHttpRequest();
-  var cors = "https://cors.bridged.cc/";
+  var cors = "https://cors-anywhere.herokuapp.com/";
   var url = "https://cafenomad.tw/api/v1.2/cafes/";
   // var table = `<table>
   // <thead>
